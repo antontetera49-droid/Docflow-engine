@@ -1,8 +1,7 @@
 # parser.py
-#"""
 #DocFlow-Engine: Parser Module
 #Extracts structure, text, and metadata from documents.
-#"""
+
 
 from pathlib import Path
 from typing import Dict, Any
