@@ -1,2 +1,13 @@
 # Docflow-engine
-DocFlow-Engine is a high-performance asynchronous pipeline for document parsing, sanitization, and conversion. Key Features: Fast extraction of file structure and metadata. Bidirectional format conversion between Markdown, HTML, and JSON. Concurrency-controlled execution engine for batch data processing. To run, use: python main.py &lt;file>
+
+### 🛠 Need Custom Features, Scaling, or Priority Support?
+Building a production system or need this tuned for your specific infrastructure? 
+
+* ⚡️ Custom Integration & Anti-Bot Bypass
+* 🚀 Dedicated Infrastructure Setup
+* 💬 Direct Dev Support: [@Myhamed91](https://t.me/Myhamed91)
+
+DocFlow-Engine: High-performance async pipeline for document parsing, sanitization, and format conversion (Markdown/HTML/JSON) with batch execution.
+Run: python main.py <file>
+
+Saved you some dev hours? Drop a ⭐ to help the project grow!
