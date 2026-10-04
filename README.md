@@ -14,11 +14,21 @@ DocFlow-Engine is a high-performance, enterprise-grade asynchronous pipeline met
 📌 How to Run
 
 Clone the repository:
+
+
 Open your terminal, clone the project repository, and navigate into the folder:
+
+
 git clone  and cd docflow-engine.
+
+
 Install dependencies:
+
+
 Install required Python packages. Core functionality uses built-in standard libraries (asyncio, pathlib), but for extended asynchronous file handling, you can install aiofiles:
 pip install aiofiles
+
+
 Configure & Test:
 Run the CLI utility on any sample document to verify setup:
 python main.py yourfilename
