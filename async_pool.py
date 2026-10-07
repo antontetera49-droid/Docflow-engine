@@ -20,3 +20,4 @@ class AsyncBatchProcessor:
 
         tasks = [sem_task(fp) for fp in file_paths]
         return await asyncio.gather(*tasks)
+#Saved you some dev hours? Drop a ⭐ to help the project grow!
