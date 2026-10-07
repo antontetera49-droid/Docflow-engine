@@ -60,3 +60,4 @@ class FormatConverter:
             result_record["error_reason"] = str(e)
 
         return result_record
+#Saved you some dev hours? Drop a ⭐ to help the project grow!
