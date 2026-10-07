@@ -1,7 +1,6 @@
 # parser.py
-#DocFlow-Engine: Parser Module
-#Extracts structure, text, and metadata from documents.
-
+# DocFlow-Engine: Parser Module
+# Extracts structure, text, and metadata from documents with detailed error tracking.
 
 from pathlib import Path
 from typing import Dict, Any
@@ -13,7 +12,7 @@ class DocumentParser:
     def extract_metadata(self) -> Dict[str, Any]:
         if not self.file_path.exists():
             raise FileNotFoundError(f"File not found: {self.file_path}")
-        
+
         stat = self.file_path.stat()
         return {
             "filename": self.file_path.name,
