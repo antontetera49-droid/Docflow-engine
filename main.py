@@ -28,3 +28,4 @@ async def amain():
 
 if __name__ == "__main__":
     asyncio.run(amain())
+#Saved you some dev hours? Drop a ⭐ to help the project grow!
