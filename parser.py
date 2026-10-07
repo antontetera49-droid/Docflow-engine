@@ -24,3 +24,4 @@ class DocumentParser:
     def parse_content(self) -> str:
         with open(self.file_path, "r", encoding="utf-8", errors="ignore") as f:
             return f.read()
+#Saved you some dev hours? Drop a ⭐ to help the project grow!
